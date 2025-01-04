@@ -1,0 +1,63 @@
+# Python files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.log
+
+# Virtual envs
+.env/
+.venv/
+
+# Local config files
+*.env
+.envrc
+electricity-consumption/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Data
+# data/raw/
+# data/processed/
+#!data/raw/README.md
+#!data/processed/README.md
+# *.csv
+# *.tsv
+# *.json
+# *.parquet
+# *.hdf5
+
+# Models
+models/
+*.h5
+*.pkl
+*.joblib
+
+# Generated files
+*.sqlite
+*.db
+*.bak
+*.gz
+*.zip
+*.tar
+*.rar
+*.7z
+
+# Results
+*.png
+*.jpg
+*.jpeg
+*.svg
+*.pdf
+*.mp4
+
+# Others
+.vscode/
+.idea/
+*.DS_Store
+*.iml
+
+# Pre-commit
+.pre-commit/
+.pre-commit-cache/
